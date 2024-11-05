@@ -5,7 +5,7 @@ import 'package:ui_learing/Course/constants/fonts.dart';
 class SplashScreen extends StatelessWidget {
    SplashScreen({super.key});
 
-  AppColors appColor = AppColors();
+ final AppColors appColor = AppColors();
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
