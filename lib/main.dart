@@ -29,7 +29,7 @@ class firstClass extends StatelessWidget {
       ),
       darkTheme: ThemeData.dark(), // Defines the dark theme for the app
       themeMode: ThemeMode.system,
-      home: ListViewBuilderScreen(),
+      home: ChatScreen(),
     );
   }
 }

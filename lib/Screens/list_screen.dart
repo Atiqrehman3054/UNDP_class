@@ -70,6 +70,7 @@ class ListViewBuilderScreen extends StatelessWidget {
                       crossAxisCount: 4,
                       crossAxisSpacing: 10,
                       mainAxisSpacing: 10,
+                      childAspectRatio: 1.2, 
                       
                     
                     ),
