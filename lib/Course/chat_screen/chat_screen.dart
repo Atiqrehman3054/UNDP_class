@@ -18,6 +18,9 @@ class ChatScreen extends StatelessWidget {
                 getData.image
               ),
             ),
+            onTap: (){
+              Navigator.pop(context);
+            },
             title: Text(getData.productName),
             subtitle: Text(getData.description),
             trailing: Text(getData.price.toString()),
