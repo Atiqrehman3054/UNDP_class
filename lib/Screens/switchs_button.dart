@@ -14,7 +14,7 @@ class StatesButtons extends StatefulWidget {
 
 class _StatesButtonsState extends State<StatesButtons> {
   @override
-  
+        
   Widget build(BuildContext context) {
 
     final selectionProvider = Provider.of<SelectData>(context);

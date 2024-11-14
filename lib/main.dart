@@ -7,6 +7,8 @@ import 'package:ui_learing/Course/user_sign/user_signIn.dart';
 import 'package:ui_learing/Screens/container.dart';
 import 'package:ui_learing/Screens/list_screen.dart';
 import 'package:ui_learing/Screens/name_screen.dart';
+import 'package:ui_learing/Screens/pageview.dart';
+import 'package:ui_learing/Screens/pageview_controller.dart';
 import 'package:ui_learing/Screens/row.dart';
 import 'package:ui_learing/Screens/statefull.dart';
 import 'package:ui_learing/Screens/switchs_button.dart';
@@ -36,7 +38,7 @@ class firstClass extends StatelessWidget {
       ),
       darkTheme: ThemeData.dark(), // Defines the dark theme for the app
       themeMode: ThemeMode.system,
-      home: StatesButtons(),
+      home: PageViewExample(),
       // initialRoute: '/',
       // routes: {
 
